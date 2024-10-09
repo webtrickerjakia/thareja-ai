@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Thareja Sans';
+  font-style: bold;
+
+
+  src: url(TharejaSans-Bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Thareja Sans';
+  font-style: BoldItalic;
+
+
+  src: url(TharejaSans-BoldItalic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Thareja Sans';
+  font-style: Light;
+
+
+  src: url(TharejaSans-Light.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Thareja Sans';
+  font-style: LightItalic;
+
+
+  src: url(THAREJA-WOFF2/TharejaSans-LightItalic.woff2) format('woff2');
+}
+
+
+@font-face {
+  font-family: 'Thareja Sans';
+  font-style: RegularItalic;
+
+
+  src: url(TharejaSans-RegularItalic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Thareja Sans';
+  font-style: Regular;
+
+
+  src: url(TharejaSans-Regular.woff2) format('woff2');
+}
