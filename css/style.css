@@ -239,7 +239,7 @@ body,html{height: 100%;}
 .customer-item:hover .play-btn{display: flex; -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out; transition: all .4s ease-in-out;}
 .customer-item:hover .customer-content{background-color: transparent; backdrop-filter: none; bottom: 60px;}
-.profitable-wrap{float: left; width: 100%; margin-top: 100px;}
+.profitable-wrap{float: left; width: 100%;padding-top: 100px; background-color: #fff;}
 .profitable-wrap .common-wrap{max-width:1420px;}
 .profitable-inner{float: left; width: 100%;}
 .profitable-item{float: left; width: 100%; display: flex; justify-content: space-between; flex-flow: row wrap;margin-top: 75px;}
@@ -320,7 +320,7 @@ body,html{height: 100%;}
 
 /* End thareja org page */
 
- .faq-wrap{float: left; width: 100%; padding: 100px 0;}
+ .faq-wrap{float: left; width: 100%; padding: 100px 0; background-color: #fff;}
  .faq-wrap .common-wrap{max-width:1440px;}
  .faq-inner{float: left; width: 100%;}
  .faq-item-wrap { float: left; width: 100%;}
@@ -470,6 +470,136 @@ header.main-header-section.sticky { background-color: #f8f9fa; }
 
  .footer-bottom-owned-item { max-width: 180px; }
 
+/* App */
+
+.img-card:after{display: none;}
+.app-item{float: left; width: 100%; margin-top: 60px;}
+.app-box{width: 32%;float: left; background-image: linear-gradient(#FFF, #FFF), radial-gradient(circle at top left, #01D18F, #005AFF); background-origin: border-box; background-clip: content-box, border-box; padding: 1px; border: double 1px transparent; border-radius: 16px; background-origin: border-box; background-clip: content-box, border-box;}
+.app-item .img-card{width: 100%; padding: 30px;}
+.app-item .btn{display: block; padding: 14px 27px 14px 50px;  margin-top: 30px;}
+.app-item .btn:after { left: 20px; right: auto; }
+.app-item .btn.gradient_btn:after { background-image: url(../svgs/download.svg); }
+
+/* Invoice */
+
+.invoice-hero{background-image: url(../img/bg-gradiant.png);background-repeat: no-repeat; background-size: cover; background-position: center center; height: 100%;}
+.invoice-hero .hero-content{max-width: 1180px;}
+.invoice-hero a.btn.transparent_btn { padding-right: 26px; }
+.invoice-hero .hero-content-btn{margin-top: 30px;}
+.invoice-hero dfn { width: 1px; height: auto; background-color: #fff; }
+.app-benifit { float: left; width: 100%; margin-top: 22px; display: flex; justify-content: center; gap: 19px; }
+.app-benifit span{font-size: 20px; font-style: normal; font-weight: 400; line-height: normal; letter-spacing: 0.4px; color: #005AFF;}
+.app-icon{display: flex; width: auto; gap: 10px;}
+.bottom-thumb { max-width: 1180px; margin: 0 auto; margin-top: 80px; border-radius: 10px; border: 8px solid rgba(255, 255, 255, 0.30); background: #fff; box-shadow: 0px 0px 46px 0px rgba(0, 0, 0, 0.10); position: relative; z-index: 11; }
+
+.component-wrap { float: left; width: 100%; margin-top: 100px; }
+.component-wrap .common-wrap{max-width: 1420px;}
+.component-wrap .component-item { float: left; width: 31.40625%; border-radius: 14px; border-bottom: 1px solid var(--Loop-Blue, #005AFF); background: #F4F7FF; }
+.component-wrap .component-box-item{gap: 2%;}
+.component-wrap .img-text img{width: 45px;}
+.component-wrap .img-text{gap: 18px;}
+.component-wrap .img-text span{font-size: 20px; font-style: normal; font-weight: 400; line-height: normal; letter-spacing: 0.4px;}
+.list-box-item { float: left; width: 100%; display: flex; align-items: baseline; justify-content: space-between; margin-top: 20px;}
+.circle-box { width: 45px; border-radius: 100px; border: 1px solid var(--Gradient-1, #01D18F); height: 45px; display: flex; justify-content: center; align-items: center; font-size: 22px; font-style: normal; font-weight: 400; line-height: normal; position: relative; }
+.circle-box::after { content: ''; position: absolute; width: 1px; height: 127px; background-image: url(../img/line.png); background-repeat: no-repeat; background-position: center center; background-size: cover; top: 56px; }
+
+.right-text-box { width: calc(100% - 70px); float: left;}
+.team-member .right-text-box { min-height: 175px;}
+.team-member .profitable-content h4 { font-size: 27px; font-style: normal; font-weight: 400; line-height: normal; }
+.team-member .profitable-content p{font-size: 18px; font-style: normal; font-weight: 400; line-height: 25px;}
+
+.client-billing{background-image: url(../img/group-bg.png);background-repeat: no-repeat; background-size: cover; background-position: center center; height: 100%; padding-top: 50px;}
+
+.client-billing .top-text{max-width: 100%;}
+.client-billing .component-item { border-bottom: 0; background: #F4F7FF; flex-direction: column; border-radius: 20px; border: 3px solid rgba(0, 90, 255, 0.10); background: #FFF;padding: 20px; justify-content: unset;}
+.client-billing .img-text { gap: 14px; border-radius: 10px; background: #F4F8FF; padding: 10px; width: 100%; }
+.invoice-details { float: left; width: 100%; margin-top: 12px; }
+.invoice-details h5{ font-size: 20px; font-style: normal; font-weight: 400; line-height: normal; letter-spacing: 0.4px}
+.invoice-details p{font-size: 16px; font-style: normal; font-weight: 400; line-height: 25px; color: #525966;padding-top: 10px;}
+.client-billing .img-text span { font-size: 18px; font-style: normal; font-weight: 400; line-height: normal; letter-spacing: 0.4px; color: #005AFF; text-transform: uppercase; }
+.required-wrap .top-text{max-width: 100%;}
+.required-wrap .profitable-thumb { width:50.605634%; }
+.required-wrap .profitable-content {width: 40.450704%;}
+.required-wrap .list-box-item { align-items:unset; }
+.required-wrap .right-text-box h4 { color:  #005AFF;text-transform: uppercase; font-size: 18px; font-style: normal; font-weight: 400; line-height: 25px;margin-top: 0;}
+.left-icon{width: 45px;}
+.required-wrap .right-text-box span{font-size: 22px; font-style: normal; font-weight: 400; line-height: 40px; color: #30353E; margin-top: 20px;}
+.required-wrap .right-text-box p{font-size: 18px; font-style: normal; font-weight: 400; line-height: 25px; color: #525966;  margin-top: 0;}
+
+.easier-invoice-wrap { float: left; width: 100%; margin-top: 100px;background: #F6FAFF;padding: 50px 0;}
+.easier-invoice-wrap .common-wrap{max-width: 1280px;}
+.easier-inner{ float: left; width: 100%;}
+.easier-invoice-wrap .img-card-items { width: 100%; padding-top: 60px; }
+.easier-invoice-wrap .img-card-item{background-image: unset;}
+.easier-invoice-wrap .card-box { padding-right: 0;}
+.easier-invoice-wrap .img-card {  width: 31.9438%;}
+.easier-invoice-wrap .img-card span {color: #005AFF; font-size: 22px; font-style: normal; font-weight: 400; line-height: normal; margin-top: 18px; }
+.easier-invoice-wrap .img-card p {font-size: 18px; font-style: normal; font-weight: 400; line-height: 25px; color: #525966;padding-top: 10px;}
+.easier-invoice-wrap h2{text-align: center;}
+.cta-wrap {float: left; width: 100%;background-image: url(../img/cta-bg.png);background-repeat: no-repeat; background-size: cover; background-position: top center; height: 100%;    padding: 120px 0; }
+.cta-wrap .common-wrap { max-width: 1020px; }
+.cta-inner { float: left; width: 100%; text-align: center; }
+.cta-inner h3 { font-size: 40px; font-style: normal; font-weight: 400; line-height: normal; letter-spacing: -1.2px }
+.cta-inner p {font-size: 22px; font-style: normal; font-weight: 400; line-height: normal;color:  #30353E; padding-top: 20px; }
+.cta-btn { width: 100%; justify-content: center; margin-top: 40px; padding-right: 7px; }
+.cta-btn a.btn.transparent_btn { color: var(--white); border-color: var(--white); }
+.product-invoice .customer-wrap { float: left; width: 100%; margin-top: 0px; background-color: #fff; padding-bottom: 80px; padding-top: 100px; }
+.product-invoice .top-text{max-width: 100%;}
+.payroll-page .profitable-content { width: 51.450704%; }
+.payroll-page .profitable-thumb { width: 43.605634%; }
+
+/* Solution page */
+.solution-hero{position: relative; height: 1000px;}
+.hero-bg{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.solution-hero .hero-inner{position: relative; z-index: 1;}
+.solution-hero .common-wrap { max-width: 1600px; }
+.solution-hero .hero-content { max-width: 800px; float: left; margin: 0;}
+.solution-hero .hero-content h1{ text-align: left;}
+.solution-hero .hero-content p{ text-align: left;font-size: 27px; font-style: normal; font-weight: 400; line-height: normal;color: #30353E;}
+.form-inner { float: left; display: flex; width: 100%; margin-top: 30px; }
+.row-input{float: left; width: auto;}
+.row-input input[type="email"] { background-color: #fff; border: 0; padding: 0 16px; font-size: 18px; height: 50px; line-height: 50px;color: #A8B7C1; border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
+.row-input input::placeholder{color: #A8B7C1;}
+.row-input input[type="submit"]{ background-color: #005AFF; border: 0; padding: 0 20px; font-size: 18px; height: 50px; line-height: 50px;color: #fff; border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
+.solution-hero .app-benifit { margin-top: 25px; justify-content: left; gap: 20px; }
+.solution-hero .app-benifit dfn { width: 1px; height: auto; background-color: #30353E; }
+.client-billing .component-box-item{margin-top: 60px;}
+.client-billing .component-box-item{margin-top: 60px;}
+.agency-page .component-wrap .img-text{align-items: flex-start;}
+.dot-icon{position: relative;}
+.dot-icon:after { content: ''; position: absolute; right: 75px; top: -10px; background-image: url(../img/agency/dot.png); width: 74px; height: 76px; background-repeat: no-repeat; background-position: center center; background-size: cover; }
+
+.thareja-tracking-wrap{float: left; width: 100%; height: 100%; position: relative; padding-top: 50px; padding-bottom: 50px;}
+/* .thareja-tracking-wrap::after{content: ''; position: absolute;background-image: url(../img/agency/curve-2.png); height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; left: 0; top: 0; width: 100%;}
+.thareja-tracking-wrap::before{content: ''; position: absolute;background-image: url(../img/agency/curve-1.png); height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; right: 0; top: 0;width: 100%;} */
+.top-curve{float: left; width: 100%; position: absolute; top: 0;}
+.color-bg{float: left; width: 100%; position: absolute; top: 0; height: 100%; left: 0;}
+.color-bg img{float: left; width: 100%; height: 100%;}
+.thareja-inner{float: left; width: 100%; position: relative; z-index: 11;}
+.agency-page .odd-item.required-wrap{padding-bottom: 100px;}
+.thareja-tracking-wrap h3{margin-top: 40px;}
+.thareja-tracking-wrap p{margin-top: 20px;}
+.thareja-tracking-wrap .btn.gradient_btn{padding-right: 27px;}
+.thareja-tracking-wrap .btn.gradient_btn:after{display: none;}
+.left-text-item h5{color: #005AFF;font-weight: 400; font-size: 20px; line-height:23.6px; letter-spacing: 2%; padding-bottom: 10px;}
+.development-page .profitable-content h4 { font-size: 18px; font-style: normal; font-weight: 400; line-height: normal; letter-spacing: -0.96px; margin-top: 30px; color: #005AFF; text-transform: uppercase;  margin-top: 0;}
+.development-page .profitable-content p { font-size: 18px; font-style: normal; font-weight: 400; }
+.development-page .list-box-item{align-items: flex-start;}
+.development-page .profitable-content { width: 41.450704%; }
+.development-page .profitable-thumb { width: 50.605634%; }
+.development-page .client-billing .right-text-box{min-height: 100%;}
+.development-page .profitable-item{align-items: center;}
+.development-page .client-billing{margin-top: 0; padding: 80px 0;}
+.development-page .profitable-wrap.odd-item.team-member{padding-bottom: 100px;}
+.development-page .required-wrap .right-text-box span{margin-top: 0;}
+.social-icon{float: left; width: 100%; display: flex; gap: 20px; align-items: center; margin-top: 30px;}
+.social-icon span{font-size: 18px; color: #005AFF;}
+.social-icon img{float: left; width:120px; }
+.development-page .free-trail .profitable-content { width: 47.450704%; text-align: center; }
+.development-page .free-trail .profitable-thumb { width: 50.605634%; }
+.development-page .free-trail .profitable-item{    background-color: #ffffff59; border-radius: 20px;}
+.thareja-tracking-wrap.free-trail h3{font-size: 34px;}
+#faq .top-text { color: #005AFF; text-align: center; display: block; font-size: 27px; }
 
 
 
